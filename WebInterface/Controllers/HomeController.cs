@@ -15,8 +15,6 @@ namespace WebInterface.Controllers
 
         public ActionResult Download()
         {
-            ViewBag.Message = "The downloads page.";
-
             return View();
         }
     }
