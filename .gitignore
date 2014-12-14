@@ -1,3 +1,5 @@
 StreamDownloader.v12.suo
 /Server/bin/*
 /Server/obj/*
+/WebInterface/bin/*
+/WebInterface/obj/*
