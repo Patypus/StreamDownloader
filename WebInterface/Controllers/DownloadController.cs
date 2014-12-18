@@ -6,11 +6,11 @@ using System.Web.Mvc;
 
 namespace WebInterface.Controllers
 {
-    public class HomeController : Controller
+    public class DownloadController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Download()
         {
             return View();
         }
-    }
+	}
 }
