@@ -26,6 +26,13 @@ namespace WebInterface
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            RegisterSiteBundles(bundles);
+        }
+
+        private static void RegisterSiteBundles(BundleCollection bundles)
+        {
+            bundles.Add(new ScriptBundle("~/Scripts/Site").Include("~/Scripts/Site/Download.js"));
         }
     }
 }
